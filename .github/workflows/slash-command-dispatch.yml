@@ -13,7 +13,6 @@ jobs:
       - name: Slash Command Dispatch (JSON)
         uses: peter-evans/slash-command-dispatch@v2
         id: scd
-        uses: ./
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           config: >
