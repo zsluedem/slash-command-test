@@ -38,14 +38,14 @@ jobs:
               },
               {
                 "command": "help2",
-                "permission": "none",
+                "permission": "admin",
                 "issue_type": "pull-request",
                 "repository": "zsluedem/rchain-bench-test",
                 "event_type_suffix": "-pr-command"
               },
               {
                 "command": "help2",
-                "permission": "none",
+                "permission": "admin",
                 "issue_type": "issue",
                 "repository": "zsluedem/rchain-bench-test"
               },
